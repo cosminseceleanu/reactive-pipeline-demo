@@ -1,7 +1,23 @@
 # Getting Started
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Spring Cloud Stream supports a variety of binder implementations and the following table includes the link to the GitHub projects.
 
-* [Messaging with RabbitMQ](https://spring.io/guides/gs/messaging-rabbitmq/)
+RabbitMQ
 
+Apache Kafka
+
+Kafka Streams
+
+Amazon Kinesis
+
+Google PubSub (partner maintained)
+
+Solace PubSub+ (partner maintained)
+
+Azure Event Hubs (partner maintained)
+
+
+#Docs
+https://docs.spring.io/spring-cloud-stream/docs/current/reference/htmlsingle/#spring-cloud-stream-overview-reactive-programming-support
+
+https://docs.spring.io/spring-cloud-stream/docs/current/reference/htmlsingle/

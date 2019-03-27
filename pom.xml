@@ -6,6 +6,8 @@
     <modules>
         <module>domain</module>
 		<module>source</module>
+		<module>processor</module>
+		<module>sink</module>
 	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
