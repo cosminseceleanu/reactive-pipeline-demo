@@ -20,7 +20,7 @@ public class OrderEmitter {
     @StreamEmitter
     @Output(Source.OUTPUT)
     public Flux<Order> emit() {
-        return Flux.interval(Duration.ofMillis(50))
+        return Flux.interval(Duration.ofMillis(200))
                 .map(d -> orderGenerator.generate());
     }
 }
